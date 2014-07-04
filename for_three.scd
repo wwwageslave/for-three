@@ -35,7 +35,7 @@ s.waitForBoot({
 	// First Frequency Knob
 	firstFreqSpec = ControlSpec(
 		minval: 5,
-		maxval: 50000,
+		maxval: 5000,
 		warp: 'exp',
 		step: 0,
 		default: 40,
@@ -67,7 +67,7 @@ s.waitForBoot({
 	// Second Frequency Knob
 	secFreqSpec = ControlSpec(
 		minval: 5,
-		maxval: 50000,
+		maxval: 5000,
 		warp: 'exp',
 		step: 0,
 		default: 40,
@@ -100,7 +100,7 @@ s.waitForBoot({
 	// Third Frequency Knob
 	thirdFreqSpec = ControlSpec(
 		minval: 5,
-		maxval: 50000,
+		maxval: 5000,
 		warp: 'exp',
 		step: 0,
 		default: 40,
